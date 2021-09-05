@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <h1>Payment Form</h1>
+    <hr>
+    <h2>User Information</h2>
+    <Form>
+        <label>Name :</label>
+        <input type="text" required name="name" placeholder="Yash">
+        <p>
+        
+        <fieldset>
+            <legend>Gender</legend>
+            Male<input type="radio" name="Gender" >
+            Female<input type="radio" name="Gender" >
+
+        </fieldset>
+        </p>
+        <p>
+            Address:
+            <br>
+          <textarea name="Your address" id="" cols="100" rows="5" placeholder="Enter you address"></textarea>
+        </p>
+
+        <p>
+            Email:
+            <input type="email" placeholder="yash8446160367@gmail.com">
+        </p>
+
+        <p>
+            Pincode :
+            <input type="text" placeholder="123456" id="pincode" style="width: 100%;">
+        </p>
+
+        <h2>User Information</h2>
+
+        <p>
+            Card Type:
+            <select name="Card type" id="card_type" required>
+                <option value="">--Select Card Type</option>
+                <option value="visa">VISA</option>
+                <option value="mastercard">MASTERCARD</option>
+                <option value="rupay">RUPAY</option>
+            </select>
+        </p>
+
+        <p>
+            Card Number:
+            <input type="text"card number" placeholder="1111-2222-3333-4444">
+        </p>
+
+        <p>
+            Expiration date:
+            <input type="datetime-local">
+
+        </p>
+
+        <p>
+            CVV:
+            <input type="text" placeholder="123">
+
+        </p>
+       <p> 
+
+         <input class="button"type="submit" value="PAY NOW" style=" background-color: #4daea1; width: 100%; " >
+         
+       </p>
+
+    </Form>
+</div>
+</body>
+</html>
